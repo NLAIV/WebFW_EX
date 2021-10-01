@@ -51,16 +51,6 @@ const Ylläpitotyökalut = props => {
                     </button>
               </div>
             </div>
-            <div>
-                Delete Item
-                <div>
-                    ID:
-                    <select>
-
-                    </select>
-                </div>
-                <button>Poista</button>
-            </div>
         </div>
     )
 }
