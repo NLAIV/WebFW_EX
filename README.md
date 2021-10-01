@@ -7,6 +7,6 @@ EX2 sisältää ylimääräisiä painikkeita, kaikki niistä pitäisi toimia. Tu
 
 EX3 Käyttöliittymä poikkeaa luentovideoista, mutta kaikki tehtävänannossa vaaditut toiminnallisuudet löytyy.
 
-EX4 Lisätty ns "Admin"-kytkin. Jos tulee vastaus "Request denied", tarkista se. Ja tämä toimii APIna EX5ssä.
+EX4 Lisätty ns "Admin"-kytkin. Jos tulee vastaus "Request denied", tarkista se. Ja tämä toimii APIna EX5ssä. Lisää infoa omassa readme-tiedostossa.
 
 EX5 Ei sisällä APIa, se löytyy kansiosta EX4.
