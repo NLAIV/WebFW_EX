@@ -1,0 +1,19 @@
+.asettelu1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+    border: solid 0;
+    border-bottom-width: 2px;
+    border-color: gray;
+}
+.asettelu2 {
+    width: 20%;
+    
+}
+.asettelu3 {
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+.asettelu4 {
+    margin-bottom: 0.2em;
+}

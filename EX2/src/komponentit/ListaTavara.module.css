@@ -1,0 +1,13 @@
+.asettelu1 {
+    list-style: none;
+    display: flex;
+    background-color: pink;
+    margin-bottom: 0.2rem;
+    padding: .2rem;
+}
+.asettelu2 {
+    margin-right: 0.2rem;
+}
+.asettelu3 {
+    margin-left: auto;
+}

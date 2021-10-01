@@ -1,0 +1,28 @@
+.asettelu1 {
+    /* Uutispalkin tiilet */
+    margin-bottom: 1em;
+    width: 640px;
+    padding: 0.5em;
+    background-color: white;
+}
+.asettelu2{
+    /* Kuvat */
+    display: block;
+    padding: 0.5em;
+}
+.asettelu3 {
+    /* Otsikot */
+    display: block;
+    padding: 0.5em;
+    font-size: 2rem;
+}
+.asettelu4 {
+    /* Uutisartikkelit */
+    display: block;
+    padding: 0.5em;
+    font-size: 2rem;
+}
+.asettelu5 {
+    font-size: medium;
+    color: darkgray;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   enable-background="new 0 0 578.938 50.084"
+   height="50.084"
+   viewBox="0 0 578.938 50.084"
+   width="578.938"
+   version="1.1"
+   id="svg86"
+   sodipodi:docname="NameBlack.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata92">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs90">
+    <rect
+       x="-13.609884"
+       y="-139.68039"
+       width="440.53045"
+       height="50.857984"
+       id="rect189" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview88"
+     showgrid="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-others="false"
+     inkscape:zoom="2.7920886"
+     inkscape:cx="235.15058"
+     inkscape:cy="-15.65314"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg86"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="true">
+    <sodipodi:guide
+       position="0,50.084"
+       orientation="0,578.93799"
+       id="guide102" />
+    <sodipodi:guide
+       position="578.938,50.084"
+       orientation="50.084,0"
+       id="guide104" />
+    <sodipodi:guide
+       position="578.938,0"
+       orientation="0,-578.93799"
+       id="guide106" />
+  </sodipodi:namedview>
+  <text
+     xml:space="preserve"
+     id="text187"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Forte;-inkscape-font-specification:Forte;white-space:pre;shape-inside:url(#rect189);fill:#000000;fill-opacity:1;stroke:none;"
+     transform="matrix(1.3814301,0,0,1.4928339,16.24224,204.40789)"><tspan
+       x="-13.609375"
+       y="-104.32726"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Forte;-inkscape-font-specification:Forte;fill:#000000;fill-opacity:1">HÖLMÖLÄN SANOMAT</tspan></tspan></text>
+</svg>

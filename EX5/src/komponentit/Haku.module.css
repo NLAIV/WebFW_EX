@@ -1,0 +1,66 @@
+.asettelu1 {
+    width: 1200px;
+    margin: 1rem 0 1rem  0;
+    display: flex;
+    justify-content: space-between;
+}
+.asettelu2 {
+    background-color: white;
+    padding: .5rem 2rem .5rem 2rem;
+    align-items: center;
+}
+.asettelu3 {
+    width: 60px;
+    margin: .5rem;
+    padding: 2px 10px 2px 10px;
+
+}
+
+.black {
+    background-color: black;
+    border-radius: 9999px;
+    padding: 20px;
+    margin-right: .5rem;
+}
+.white {
+    background-color: white;
+    border-radius: 9999px;
+    padding: 20px;
+    margin-right: .5rem;
+}
+.grey {
+    background-color: grey;
+    border-radius: 9999px;
+    padding: 20px;
+    margin-right: .5rem;
+}
+.transparent {
+    background:linear-gradient(to bottom, #858585 5%, #ffffff 100%);
+	background-color: white;	
+    border-radius: 9999px;
+    padding: 20px;
+    margin-right: .5rem;
+}
+.red {
+    background-color: red;
+    border-radius: 9999px;
+    padding: 20px;
+    margin-right: .5rem;
+}
+.green {
+    background-color: green;
+    border-radius: 9999px;
+    padding: 20px;
+    margin-right: .5rem;
+}
+.blue {
+    background-color: blue;
+    border-radius: 9999px;
+    padding: 20px;
+    margin-right: .5rem;
+}
+.yellow {
+    background-color: yellow;
+    border-radius: 9999px;
+    padding: 20px;
+}

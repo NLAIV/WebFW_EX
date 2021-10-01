@@ -1,0 +1,393 @@
+{
+	"info": {
+		"_postman_id": "8972df53-6b99-4f9b-952c-c3ed09110162",
+		"name": "EX4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Admin switch CorPassWD",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passwd\": \"12345\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin switch WrongPassWD",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passwd\": \"wrong password\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/admin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/filaments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"filaments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get single item",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4000/filaments/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"filaments",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get items by Color",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4000/filaments/col/green",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"filaments",
+						"col",
+						"green"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get items by Material",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4000/filaments/mat/abs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"filaments",
+						"mat",
+						"abs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get items by SearchTerm",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4000/filaments/search/punainen pla",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"filaments",
+						"search",
+						"punainen pla"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post a new item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"manf\": \"Value\",\r\n    \"mat\": \"pla\",\r\n    \"col\": \"green\",\r\n    \"img\": \"pla_green.png\",\r\n    \"price\": 19.90,\r\n    \"desc\": \"pla vihreä\",\r\n    \"sDesc\": \"Halpa Vihreä PLA-muovi 3D-tulostimeen...\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/newFilament",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"newFilament"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modify item",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"manf\": \"universal\",\r\n    \"mat\": \"pla\",\r\n    \"col\": \"transparent\",\r\n    \"img\": \"pla_transparent.png\",\r\n    \"price\": 23.90,\r\n    \"desc\": \"pla läpinäkyvä\",\r\n    \"sDesc\": \"Läpinäkyvä PLA-muovi 3D-tulostimeen...\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/filaments/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"filaments",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete item",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4000/filaments/19",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"filaments",
+						"19"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post a new User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Lucky Luke\",\r\n    \"addr\": \"Wild West\",\r\n    \"pnum\": \"199199199\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/newUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"newUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post a new Invoice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idUser\": 0,\r\n    \"items\": [\r\n        {\"id\": 1, \"amt\": 1},\r\n        {\"id\": 2, \"amt\": 1},\r\n        {\"id\": 9, \"amt\": 1},\r\n        {\"id\": 11, \"amt\": 1},\r\n        {\"id\": 14, \"amt\": 1}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/purchase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"purchase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all invoices by user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/invoice/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"invoice",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get single invoice by userId&invId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/invoice/0/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"invoice",
+						"0",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete single invoice by invId",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/invoice/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"invoice",
+						"0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

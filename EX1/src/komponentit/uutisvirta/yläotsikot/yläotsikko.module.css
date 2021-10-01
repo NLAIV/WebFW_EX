@@ -1,0 +1,8 @@
+.yläotsikko {
+    background-color: hotpink;
+    color: white;
+    font-size: 1.1rem;
+    padding: 1em;
+    margin-bottom: 2px;
+    align-items: center;
+}

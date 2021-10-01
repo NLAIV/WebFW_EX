@@ -1,0 +1,195 @@
+{
+   "filaments": [
+        {
+            "id": 0,
+            "manf": "universal",
+            "mat": "pla",
+            "col": "red",
+            "img": "./img/pla_red.png",
+            "price": 23.90,
+            "desc": "pla punainen",
+            "sDesc": "Punainen PLA-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 1,
+            "manf": "universal",
+            "mat": "pla",
+            "col": "green",
+            "img": "./img/pla_green.png",
+            "price": 23.90,
+            "desc": "pla vihreä",
+            "sDesc": "Vihreä PLA-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 2,
+            "manf": "universal",
+            "mat": "pla",
+            "col": "blue",
+            "img": "./img/pla_blue.png",
+            "price": 23.90,
+            "desc": "pla sininen",
+            "sDesc": "Sininen PLA-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 3,
+            "manf": "universal",
+            "mat": "pla",
+            "col": "yellow",
+            "img": "./img/pla_yellow.png",
+            "price": 23.90,
+            "desc": "pla keltainen",
+            "sDesc": "Keltainen PLA-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 4,
+            "manf": "universal",
+            "mat": "pla",
+            "col": "black",
+            "img": "./img/pla_black.png",
+            "price": 23.90,
+            "desc": "pla musta",
+            "sDesc": "Musta PLA-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 5,
+            "manf": "universal",
+            "mat": "pla",
+            "col": "grey",
+            "img": "./img/pla_grey.png",
+            "price": 23.90,
+            "desc": "pla harmaa",
+            "sDesc": "Harmaa PLA-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 6,
+            "manf": "universal",
+            "mat": "pla",
+            "col": "white",
+            "img": "./img/pla_white.png",
+            "price": 23.90,
+            "desc": "pla valkoinen",
+            "sDesc": "Valkoinen PLA-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 7,
+            "manf": "universal",
+            "mat": "abs",
+            "col": "red",
+            "img": "./img/abs_red.png",
+            "price": 25.90,
+            "desc": "abs punainen",
+            "sDesc": "Punainen ABS-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 8,
+            "manf": "universal",
+            "mat": "abs",
+            "col": "green",
+            "img": "./img/abs_green.png",
+            "price": 25.90,
+            "desc": "abs vihreä",
+            "sDesc": "Vihreä ABS-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 9,
+            "manf": "universal",
+            "mat": "abs",
+            "col": "blue",
+            "img": "./img/abs_blue.png",
+            "price": 25.90,
+            "desc": "abs sininen",
+            "sDesc": "Sininen ABS-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 10,
+            "manf": "universal",
+            "mat": "abs",
+            "col": "yellow",
+            "img": "./img/abs_yellow.png",
+            "price": 25.90,
+            "desc": "abs keltainen",
+            "sDesc": "Keltainen ABS-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 11,
+            "manf": "universal",
+            "mat": "abs",
+            "col": "black",
+            "img": "./img/abs_black.png",
+            "price": 25.90,
+            "desc": "abs musta",
+            "sDesc": "Musta ABS-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 12,
+            "manf": "universal",
+            "mat": "abs",
+            "col": "grey",
+            "img": "./img/abs_grey.png",
+            "price": 25.90,
+            "desc": "abs harmaa",
+            "sDesc": "Harmaa ABS-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 13,
+            "manf": "universal",
+            "mat": "abs",
+            "col": "white",
+            "img": "./img/abs_white.png",
+            "price": 25.90,
+            "desc": "abs valkoinen",
+            "sDesc": "Valkoinen ABS-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 14,
+            "manf": "universal",
+            "mat": "petg",
+            "col": "black",
+            "img": "./img/petg_black.png",
+            "price": 29.90,
+            "desc": "petg musta",
+            "sDesc": "Musta PETG-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 15,
+            "manf": "universal",
+            "mat": "petg",
+            "col": "white",
+            "img": "./img/petg_white.png",
+            "price": 29.90,
+            "desc": "petg valkoinen",
+            "sDesc": "Valkoinen PETG-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 16,
+            "manf": "universal",
+            "mat": "petg",
+            "col": "red",
+            "img": "./img/petg_red.png",
+            "price": 29.90,
+            "desc": "petg punainen",
+            "sDesc": "Punainen PETG-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 17,
+            "manf": "universal",
+            "mat": "petg",
+            "col": "blue",
+            "img": "./img/petg_blue.png",
+            "price": 29.90,
+            "desc": "petg sininen",
+            "sDesc": "Sininen PETG-muovi 3D-tulostimeen..."
+        },
+        {
+            "id": 18,
+            "manf": "universal",
+            "mat": "petg",
+            "col": "transparent",
+            "img": "./img/petg_clear.png",
+            "price": 29.90,
+            "desc": "petg läpinäkyvä",
+            "sDesc": "Läpinäkyvä PETG-muovi 3D-tulostimeen..."
+        }
+    ]
+    
+}

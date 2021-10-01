@@ -1,0 +1,37 @@
+.asettelu1{
+    display: block;
+    border: 0 solid;
+    background-color: white;
+    color: black;
+    border-bottom-width: 1px;
+    border-color: black/*rgb(205, 205, 205)*/;
+
+}
+.asettelu2 {
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.asettelu3 {
+    height: 52px;
+    align-items: center;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tyyppi1{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+    display: block;
+    /*TODO: Eti jostain palkki ekan navilinkin alle!*/
+}
+.tyyppi2{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+    display: block;
+}

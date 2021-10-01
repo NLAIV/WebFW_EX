@@ -1,0 +1,22 @@
+.asettelu1{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.asettelu2 {
+    display: block;
+    margin: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.asettelu3 {
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+

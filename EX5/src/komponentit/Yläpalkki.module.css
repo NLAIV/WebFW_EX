@@ -1,0 +1,19 @@
+.asettelu1 {
+    display: block;
+    background-color: yellow;
+}
+.asettelu2 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.asettelu3 {
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+}
+.asettelu4 {
+    background-color: yellow;
+    border: 0 solid;
+}
